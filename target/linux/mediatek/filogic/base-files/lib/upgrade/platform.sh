@@ -89,8 +89,7 @@ platform_do_upgrade() {
 	netcore,n60|\
 	netcore,n60-pro|\
 	qihoo,360t7|\
-        newland,nl-wr8103|\
-        newland,nl-wr9103|\
+    newland,nl-wr8103|\
 	routerich,ax3000-ubootmod|\
  	snr,snr-cpe-ax2|\
 	tplink,tl-xdr4288|\
@@ -223,8 +222,7 @@ platform_check_image() {
 	openwrt,one|\
 	netcore,n60|\
 	qihoo,360t7|\
-        newland,nl-wr8103|\
-        newland,nl-wr9103|\
+    newland,nl-wr8103|\
 	routerich,ax3000-ubootmod|\
 	tplink,tl-xdr4288|\
 	tplink,tl-xdr6086|\
