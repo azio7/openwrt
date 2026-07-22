@@ -133,6 +133,7 @@ platform_do_upgrade() {
 	netis,nx31|\
 	netis,nx32u|\
 	nokia,ea0326gmp|\
+	newland,nl-wr8103|\
 	openwrt,one|\
 	netcore,n60|\
 	netcore,n60-pro|\
@@ -334,6 +335,7 @@ platform_check_image() {
 	mediatek,mt7988a-rfb|\
 	mercusys,mr90x-v1-ubi|\
 	nokia,ea0326gmp|\
+	newland,nl-wr8103|\
 	netis,eap930-v1|\
 	netis,nx32u|\
 	openwrt,one|\

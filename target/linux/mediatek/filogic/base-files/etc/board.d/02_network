@@ -18,6 +18,7 @@ mediatek_setup_interfaces()
 	netis,nx31|\
 	nokia,ea0326gmp|\
 	mercusys,mr80x-v3|\
+	newland,nl-wr8103|\
 	routerich,ax3000-v1|\
 	zbtlink,zbt-z8103ax|\
 	zbtlink,zbt-z8103ax-c)
@@ -290,6 +291,11 @@ mediatek_setup_macs()
 		lan_mac=$(mmc_get_mac_ascii bdinfo "fac_mac ")
 		wan_mac=$(macaddr_add "$lan_mac" 2)
 		label_mac=$lan_mac
+		;;
+	newland,nl-wr8103)
+		lan_mac=$(mtd_get_mac_ascii factory lanMac)
+		wan_mac=$(macaddr_add "$lan_mac" 1)
+		label_mac=$wan_mac
 		;;
 	qihoo,360t7)
 		lan_mac=$(mtd_get_mac_ascii factory lanMac)

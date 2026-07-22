@@ -63,6 +63,9 @@ zyxel,ex5601-t0-ubootmod|\
 zyxel,wx5600-t0-ubootmod)
 	ubootenv_add_ubi_default
 	;;
+newland,nl-wr8103)
+	ubootenv_add_ubi_config
+	;;
 acer,predator-w6|\
 acer,predator-w6d|\
 acer,vero-w6m|\
